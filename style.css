@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 60%;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  background: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
+  display: none;
+  animation: pop 0.5s ease;
+}
+@keyframes pop {
+  0% {
+    transform: scaleY(0);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .modal {
+    width: 70%;
+  }
+}
+.close-btn {
+  font-size: 22px;
+  color: rgb(175, 79, 62);
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+img {
+  width: 100px;
+  margin: 20px auto;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(35, 232, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 20px;
+  color: rgba(94, 35, 100, 0.938);
+  margin: 10px auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  font-family: cursive;
+  color: rgb(27, 25, 23);
+  padding: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: rgb(23, 197, 125);
+  color: whitesmoke;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
