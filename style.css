@@ -27,20 +27,21 @@
 }
 @media only screen and (max-width: 800px) {
   .modal {
-    width: 70%;
+    width: 75%;
   }
 }
+
 .close-btn {
   font-size: 22px;
   color: rgb(175, 79, 62);
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 7px;
   cursor: pointer;
 }
 img {
   width: 100px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 .container {
   width: 100vw;
@@ -53,14 +54,14 @@ img {
 h1 {
   font-size: 20px;
   color: rgba(94, 35, 100, 0.938);
-  margin: 10px auto;
+  margin: 25px auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 p {
-  font-family: cursive;
+  font-family: "Itim", cursive;
   color: rgb(27, 25, 23);
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
