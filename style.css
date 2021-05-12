@@ -39,6 +39,9 @@
   right: 7px;
   cursor: pointer;
 }
+.close-btn:active {
+  transform: scale(1.1);
+}
 img {
   width: 100px;
   margin: 15px auto;
@@ -71,6 +74,10 @@ button {
   background: rgb(23, 197, 125);
   color: whitesmoke;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
+}
+
+button:active {
+  transform: scale(1.1);
 }
