@@ -79,5 +79,6 @@ button {
 }
 
 button:active {
+  transition-duration: 0s;
   transform: scale(1.1);
 }
